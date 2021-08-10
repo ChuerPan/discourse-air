@@ -385,12 +385,30 @@ html body #main-outlet {
         order: 1;
       }
       td.last-post {
-        width: 7%;
+        padding: 8px 5px;
+		width: auto;
         order: 4;
         height: auto;
         display: flex;
         justify-content: center;
         align-items: center;
+        .poster-avatar {
+			float: left;
+			/* margin: 5px 7px 0 30px; */
+			margin-left: 2.50em;
+		}
+		.poster-info {
+			width: calc(100% - 80px);
+			float: right;
+			overflow: hidden;
+			text-align: justify;
+			span.relative-date {
+				color: $primary-high;
+			}
+			.editor a {
+				color: $primary;
+			}
+            }
         a:not(:first-of-type) {
           display: none
         }

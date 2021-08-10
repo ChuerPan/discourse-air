@@ -283,7 +283,7 @@ html body #main-outlet {
     th.posts {
       width: 15%;
     }
-    th.activity {
+    th.activity .last-post {
       width: 15%;
     }
   }
@@ -330,11 +330,11 @@ html body #main-outlet {
       }
       td.main-link {
         width: 63%;
-        order: 1;
+        order: 2;
       }
       td.posters {
         width: 7%;
-        order: 4;
+        order: 1;
         height: auto;
         display: flex;
         justify-content: center;
@@ -343,16 +343,16 @@ html body #main-outlet {
           display: none
         }
       }
-      td.posts .last-post {
+      td.posts {
         width: 15%;
-        order: 2;
+        order: 3;
         display: flex;
         justify-content: center;
         align-items: center;
       }
-      td.age {
+      td.age .last-post {
         width: 15%;
-        order: 3;
+        order: 4;
         display: flex;
         justify-content: center;
         align-items: center;

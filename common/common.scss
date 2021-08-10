@@ -330,11 +330,11 @@ html body #main-outlet {
       }
       td.main-link {
         width: 63%;
-        order: 2;
+        order: 1;
       }
       td.posters {
         width: 7%;
-        order: 1;
+        order: 4;
         height: auto;
         display: flex;
         justify-content: center;
@@ -343,16 +343,16 @@ html body #main-outlet {
           display: none
         }
       }
-      td.posts {
+      td.posts .last-post {
         width: 15%;
-        order: 3;
+        order: 2;
         display: flex;
         justify-content: center;
         align-items: center;
       }
       td.age {
         width: 15%;
-        order: 4;
+        order: 3;
         display: flex;
         justify-content: center;
         align-items: center;

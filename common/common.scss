@@ -95,7 +95,7 @@
 
 .discourse-tags .discourse-tag.simple:not(:last-child)::after, .list-tags .discourse-tag.simple:not(:last-child)::after, .search-category .discourse-tag.simple:not(:last-child)::after {
   content: "";
-  margin-left: unset;
+  margin-left: 2em;
 }
 
 .topic-list .link-bottom-line .discourse-tag.simple:after, .topic-list .link-bottom-line .discourse-tag.box {

@@ -384,35 +384,6 @@ html body #main-outlet {
         width: 63%;
         order: 1;
       }
-      td.last-post {
-        padding: 8px 5px;
-		width: auto;
-        order: 4;
-        height: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        .poster-avatar {
-			float: left;
-			/* margin: 5px 7px 0 30px; */
-			margin-left: 2.50em;
-		}
-		.poster-info {
-			width: calc(100% - 80px);
-			float: right;
-			overflow: hidden;
-			text-align: justify;
-			span.relative-date {
-				color: $primary-high;
-			}
-			.editor a {
-				color: $primary;
-			}
-            }
-        a:not(:first-of-type) {
-          display: none
-        }
-      }
       td.posts {
         width: 15%;
         order: 2;
@@ -426,6 +397,35 @@ html body #main-outlet {
         display: flex;
         justify-content: center;
         align-items: center;
+      }
+      td.last-post {
+        padding: 8px 5px;
+		width: 7%;
+        order: 4;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .poster-avatar {
+			float: left;
+			/* margin: 5px 7px 0 30px; */
+			margin-left: 0em;
+		}
+		.poster-info {
+			width: calc(100% - 50px);
+			float: right;
+			overflow: hidden;
+			text-align: justify;
+			span.relative-date {
+				color: $primary-high;
+			}
+			.editor a {
+				color: $primary;
+			}
+            }
+        a:not(:first-of-type) {
+          display: none
+        }
       }
     }
   }

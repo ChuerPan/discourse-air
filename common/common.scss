@@ -398,40 +398,42 @@ html body #main-outlet {
         justify-content: center;
         align-items: center;
       }
-      td.poster {
-		width: 7%;
+      td.posters {
+        width: 7%;
         order: 4;
         height: auto;
         display: flex;
         justify-content: center;
         align-items: center;
-        .last-post {
-            padding: 8px 5px;
-            .poster-avatar {
-			    float: left;
-			    /* margin: 5px 7px 0 30px; */
-			    margin-left: 0em;
-		    }
-		    .poster-info {
-			    width: calc(100%);
-			    float: right;
-			    overflow: hidden;
-			    text-align: justify;
-			    span.relative-date {
-				    color: $primary-high;
-			    }
-			    .editor a {
-				    color: $primary;
-			    }
-            }
-            a:not(:first-of-type) {
-                display: none
-            }
+        a:not(:first-of-type) {
+          display: none
         }
       }
+      td.last-post {
+		padding: 8px 5px;
+		width: auto;
+		.poster-avatar {
+			float: left;
+			/* margin: 5px 7px 0 30px; */
+			margin-left: 2.50em;
+		}
+		.poster-info {
+			width: calc(100% - 80px);
+			float: right;
+			overflow: hidden;
+			text-align: justify;
+			span.relative-date {
+				color: $primary-high;
+			}
+			.editor a {
+				color: $primary;
+			}
+		    }
+	    }
+        }
     }
-  }
 }
+
 
 td.num.views, th.num.views {
   display: none;

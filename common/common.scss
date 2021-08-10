@@ -398,27 +398,28 @@ html body #main-outlet {
         justify-content: center;
         align-items: center;
       }
-      td.posters {
-        width: 7%;
-        order: 4;
-        height: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        a:not(:first-of-type) {
-          display: none
-        }
-      }
+//      td.posters {
+//        width: 7%;
+//        order: 4;
+//        height: auto;
+//        display: flex;
+//        justify-content: center;
+//        align-items: center;
+//        a:not(:first-of-type) {
+//          display: none
+//        }
+//      }
       td.last-post {
 		padding: 8px 5px;
 		width: auto;
+        order: 4;
 		.poster-avatar {
 			float: left;
 			/* margin: 5px 7px 0 30px; */
-			margin-left: 2.50em;
+			margin-left: 1.50em;
 		}
 		.poster-info {
-			width: calc(100% - 80px);
+			width: calc(100% +20px);
 			float: right;
 			overflow: hidden;
 			text-align: justify;
